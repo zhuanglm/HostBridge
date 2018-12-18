@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAlereLightGray">
+
+    <LinearLayout
+        android:id="@+id/menuitem_null_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAlereLightGray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/menuitem_null_value_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingBottom="12dp"
+            android:paddingEnd="0dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAlereLightGray"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/menuitem_null_value_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingBottom="12dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="12dp"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAlereLightGray"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuitem_edit_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAlereLightGray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/menuitem_edit_switch_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingBottom="12dp"
+            android:paddingEnd="0dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAlereLightGray"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/menuitem_edit_switch_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingBottom="12dp"
+            android:paddingEnd="0dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAlereLightGray"
+            android:textSize="17sp" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/edit_switch_switcher"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:paddingStart = "0dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="12dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAlereLightGray"
+            android:textSize="17sp"
+            android:theme="@style/BrandedSwitch.control" />
+
+    </LinearLayout>
+</FrameLayout>

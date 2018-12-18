@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ExpandableListView group view requires the attribute descendantFocusability to block children's focus
+         android:descendantFocusability="blocksDescendants"
+     Otherwise, the row click will not register
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/padding"
+    android:paddingBottom="@dimen/padding_sm"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/padding_sm"
+        android:src="@drawable/ic_circle_status_orangeyellow_24dp" />
+
+    <TextView
+        android:id="@+id/section_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/status_icon"
+        android:text="Related Test"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/section_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/section_title"
+        android:layout_below="@+id/section_title"
+        android:text="Passed Mar 13, 2019 at 12:35pm"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:id="@+id/group_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="@dimen/padding_sm"
+        android:src="@drawable/ic_arrow_down_black_24dp"
+        android:background="@android:color/transparent" />
+</RelativeLayout>

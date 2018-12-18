@@ -1,0 +1,16 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "CalculateResultsResponseTO";
+option optimize_for = LITE_RUNTIME;
+
+import "calculated_hgb_result.proto";
+
+message CalculateResultsResponse {
+    int32  errorCode = 1;
+    string errorMessage = 2;
+
+    // List of out parameters -
+    repeated CalculatedHgbResult hgbResult = 3;
+}

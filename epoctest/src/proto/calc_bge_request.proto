@@ -1,0 +1,15 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "CalculateBGERequestTO";
+option optimize_for = LITE_RUNTIME;
+
+import "sensor_readings.proto";
+import "bge_parameters.proto";
+
+message CalculateBGERequest {
+    repeated SensorReadings sensorReadings = 1;
+    BGEParameters params = 2;
+    bool allowNegativeValues = 3;
+}

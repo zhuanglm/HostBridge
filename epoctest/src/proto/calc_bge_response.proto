@@ -1,0 +1,18 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "CalculateBGEResponseTO";
+option optimize_for = LITE_RUNTIME;
+
+import "sensor_readings.proto";
+import "bge_parameters.proto";
+
+message CalculateBGEResponse {
+    int32  errorCode = 1;
+    string errorMessage = 2;
+
+    // List of out parameters -
+    repeated SensorReadings sensorReadings = 3;
+    BGEParameters params = 4;
+}

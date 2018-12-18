@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TestDetailsCategories">
+        <item>Results</item>
+        <item>Entered Data</item>
+        <item>Status</item>
+    </string-array>
+
+    <string-array name="TestDetailsQATestCategories">
+        <item>Related QA Test</item>
+        <item>Related Electronic QC</item>
+        <item>Related Thermal QA</item>
+        <item>Device Status</item>
+        <item>Reference Range</item>
+        <item>Reportable Range</item>
+        <item>Critical Range</item>
+    </string-array>
+
+</resources>

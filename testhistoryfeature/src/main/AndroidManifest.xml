@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.epocal.testhistoryfeature">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity
+            android:name=".ui.TestHistoryMainActivity"
+            android:label="@string/title_test_history_main"
+            android:theme="@style/THAppTheme.NoActionBar">
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.TestHistoryDetailsActivity"
+            android:label="@string/title_test_history_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

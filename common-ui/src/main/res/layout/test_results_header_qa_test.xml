@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/message_0"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:text="@string/test_complete"
+        android:textColor="#2b2b2b"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+
+    <LinearLayout
+        android:id="@+id/qc_failed_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_x_shape"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_view_failed_message"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp"
+            android:gravity="left"
+            android:text="@string/qc_failed"
+            android:textColor="#FF0000"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/text_view_failed_results"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp"
+            android:gravity="left"
+            android:text="@string/analytes_out_of_range"
+            android:textColor="#FF0000"
+            android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_close_and_transmit"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/primaryBlueNew"
+        android:gravity="center"
+        android:text="@string/test_close_and_transmit"
+        android:textColor="@color/colorWhite"/>
+
+
+</LinearLayout>

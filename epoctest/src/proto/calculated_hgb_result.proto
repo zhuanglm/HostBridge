@@ -1,0 +1,11 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "CalculatedHgbResultTO";
+option optimize_for = LITE_RUNTIME;
+
+message CalculatedHgbResult {
+    int32 hgbResultType = 1;    // enum HgbResult
+    float resultValue = 2;
+}

@@ -1,0 +1,9 @@
+<!-- res/values/themes.xml -->
+<resources>
+    <style name="EpocColoredButton" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">#848484</item>
+        <item name="colorAccent">@color/colorAlereBlue</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+    </style>
+</resources>

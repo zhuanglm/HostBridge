@@ -1,0 +1,12 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+patienttestprocedure/src/main/java/com/epocal/patienttestprocedure/screens/.svn
+.idea/
+patienttestprocedure/src/main/java/com/epocal/patienttestprocedure/.svn/entries

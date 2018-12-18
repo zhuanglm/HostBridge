@@ -1,0 +1,17 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "CheckForEarlyInjectionRequestTO";
+option optimize_for = LITE_RUNTIME;
+
+import "sensor_readings.proto";
+
+message CheckForEarlyInjectionRequest {
+    SensorReadings hematocritReadings = 1;
+    SensorReadings topHeaterReadings = 2;
+    int32 previousReturnCode = 3;
+    double airAfterFluidThreshold = 4;
+    float lastRecordedTime = 5;
+    double firstFluid = 6;
+}

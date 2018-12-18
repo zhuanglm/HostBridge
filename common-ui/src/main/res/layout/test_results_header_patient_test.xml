@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/message_0"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:text="@string/test_results"
+        android:textColor="#2b2b2b"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+
+    <LinearLayout
+        android:id="@+id/critical_results_layout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/ic_critical_large"/>
+
+        <TextView
+            android:id="@+id/text_view_critical_results"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="4dp"
+            android:gravity="center"
+            android:text="@string/test_document_results_msg"
+            android:textColor="#FF0000"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_document_results"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAlereRed"
+        android:gravity="center"
+        android:text="@string/test_document_results"
+        android:textColor="@color/colorWhite"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_close_and_transmit"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/primaryBlueNew"
+        android:gravity="center"
+        android:text="@string/test_close_and_transmit"
+        android:textColor="@color/colorWhite"/>
+
+
+</LinearLayout>

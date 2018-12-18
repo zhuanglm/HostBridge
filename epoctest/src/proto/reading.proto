@@ -1,0 +1,11 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "ReadingTO";
+option optimize_for = LITE_RUNTIME;
+
+message Reading {
+    float Time = 1;
+    float Value = 2;
+}

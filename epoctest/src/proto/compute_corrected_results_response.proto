@@ -1,0 +1,17 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "ComputeCorrectedResultsResponseTO";
+option optimize_for = LITE_RUNTIME;
+
+import "final_result.proto";
+
+message ComputeCorrectedResultsResponse {
+    // Response error info -
+    int32  errorCode = 1;
+    string errorMessage = 2;
+
+    // List of out parameters -
+    repeated FinalResult correctedResults = 3;
+}

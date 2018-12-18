@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="12dp"
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp"
+    android:paddingTop="12dp">
+
+    <TextView
+        android:id="@+id/user_id_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/user_id" />
+
+    <EditText
+        android:id="@+id/user_id_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/host_settings_edit_user_id_hint"
+        android:textSize="20dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/user_id_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/host_settings_edit_user_id_error_invalid"
+        android:textColor="@color/colorAlereRed" />
+
+    <TextView
+        android:id="@+id/user_name_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/host_settings_edit_user_name" />
+
+    <EditText
+        android:id="@+id/user_name_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/host_settings_edit_user_name_hint"
+        android:textSize="20dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/user_name_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/host_settings_edit_user_name_error_invalid"
+        android:textColor="@color/colorAlereRed" />
+
+    <TextView
+        android:id="@+id/user_password_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/host_settings_edit_user_password" />
+
+    <EditText
+        android:id="@+id/user_password_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/host_settings_edit_user_password_hint"
+        android:textSize="20dp"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/user_password_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/host_settings_edit_user_password_error"
+        android:textColor="@color/colorAlereRed" />
+
+    <Switch
+        android:id="@+id/user_status_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/host_settings_edit_user_enabled" />
+
+    <TextView
+        android:id="@+id/user_role_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"
+        android:text="@string/host_settings_edit_user_role" />
+
+    <Spinner
+        android:id="@+id/user_role_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/host_settings_edit_user_role_types" />
+
+    <TextView
+        android:id="@+id/user_expiration_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"
+        android:text="@string/host_settings_edit_user_expiration" />
+
+    <EditText
+        android:id="@+id/user_expiration_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/host_settings_edit_user_expiration_hint"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:textSize="20dp"
+        android:cursorVisible="false"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/user_expiration_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/host_settings_edit_user_expiration_error"
+        android:textColor="@color/colorAlereRed" />
+
+    <TextView
+        android:id="@+id/user_created_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/host_settings_edit_user_created" />
+
+    <EditText
+        android:id="@+id/user_created_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:textSize="20dp"
+        android:focusable="false"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_Positive"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/primaryBlueNew"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>

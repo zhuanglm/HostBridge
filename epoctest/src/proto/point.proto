@@ -1,0 +1,11 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "PointTO";
+option optimize_for = LITE_RUNTIME;
+
+message Point {
+    float X = 1;
+    float Y = 2;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "HumidityStructTO";
+option optimize_for = LITE_RUNTIME;
+
+message HumidityStruct {
+    int32 sensorType = 1;   // enum Sensors
+    int32 windowStart = 2;
+    int32 windowSize = 3;
+    double low = 4;
+    double high = 5;
+    double extra1 = 6;
+    double extra2 = 7;
+    double extra3 = 8;
+    double extra4 = 9;
+    double extra5 = 10;
+    double extra6 = 11;
+    double extra7 = 12;
+    double extra8 = 13;
+    double extra9 = 14;
+    double extra10 = 15;
+}

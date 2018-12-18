@@ -1,0 +1,18 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "CooxModelTO";
+option optimize_for = LITE_RUNTIME;
+
+message CooxModel {
+    int32 PixelMin = 1;
+    int32 PixelMax = 2;
+    int32 CoeffStart = 3;
+    int32 CoeffEnd = 4;
+    repeated float Coefficients0 = 5;
+    repeated float Coefficients1 = 6;
+    repeated float Coefficients2 = 7;
+    repeated float Coefficients3 = 8;
+    repeated float Coefficients4 = 9;
+}

@@ -1,0 +1,2 @@
+include ':host4', ':common', ':util', ':datamanager', ':testhistoryfeature', ':testsettingsfeature', ':qafeature', ':hostsettings', ':hardware', ':common-ui',
+        ':readermanagement', ':epoctestprocedure', ':synchronization', ':loginfeature', ':network', ':diagnostics', ':communicationprotocol', ':epoctest', ':epoclog'

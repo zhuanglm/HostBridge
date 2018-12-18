@@ -1,0 +1,18 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "ComputeCorrectedResultsRequestTO";
+option optimize_for = LITE_RUNTIME;
+
+import "final_result.proto";
+
+message ComputeCorrectedResultsRequest {
+    repeated FinalResult measuredResults = 1;
+    repeated FinalResult correctedResults = 2;
+    double temperature = 3;
+    double pressure = 4;
+    double FiO2 = 5;
+    double RQ = 6;
+    bool calculateAlveolar = 7;
+}

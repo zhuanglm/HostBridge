@@ -1,0 +1,26 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "ComputeCalculatedResultsRequestTO";
+option optimize_for = LITE_RUNTIME;
+
+import "final_result.proto";
+
+message ComputeCalculatedResultsRequest {
+    repeated FinalResult measuredResults = 1;
+    repeated FinalResult calculatedResults = 2;
+    double passedctHb = 3;
+    double FiO2 = 4;
+    double temperature = 5;
+    double pressure = 6;
+    int32 testMode = 7;
+    double patientAge = 8;
+    int32 gender = 9;
+    int32 egfrFormula = 10;
+    double patientHeight = 11;
+    int32 ageCategory = 12;
+    double RQ = 13;
+    bool calculateAlveolar = 14;
+    bool theApplymTCO2 = 15;
+}

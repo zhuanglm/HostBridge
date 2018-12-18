@@ -1,0 +1,29 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "BGEParametersTO";
+option optimize_for = LITE_RUNTIME;
+
+import "sensor_readings.proto";
+
+message BGEParameters {
+    double parameter0 = 1;
+    double parameter1 = 2;
+    float parameter2 = 3;
+    float parameter3 = 4;
+    bool parameter4 = 5;
+    int32 parameter5 = 6;           // enum FluidType
+    SensorReadings parameter6 = 7;
+    int32 parameter7 = 8;
+    bool parameter8 = 9;
+    double parameter9 = 10;
+    int32 parameter10 = 11;
+    double parameter11 = 12;
+    double parameter12 = 13;
+    double parameter13 = 14;
+    double parameter14 = 15;
+    bool parameter15 = 16;
+    bool parameter16 = 17;
+    int32 count = 18;
+}

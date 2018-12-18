@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.epocal.testhistoryfeature.ui.TestHistoryMainActivity">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_white_24px"
+        android:title="Search Title"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|always" />
+    <item
+        android:id="@+id/action_select"
+        android:orderInCategory="100"
+        android:title="@string/action_title_select"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_select_all"
+        android:orderInCategory="101"
+        android:title="@string/action_title_select_all"
+        app:showAsAction="never" />
+</menu>

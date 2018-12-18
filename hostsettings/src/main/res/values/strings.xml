@@ -1,0 +1,134 @@
+<resources>
+    <string name="title_activity_host_settings_main">HostSettings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="hostSettings_mainmenu_values">
+        <item>Name settings</item>
+        <item>General Host settings</item>
+        <item>Operator name and password</item>
+        <item>Set language</item>
+        <item>Users</item>
+        <item>Printers</item>
+        <item>Barcode settings</item>
+        <item>Upgrade</item>
+    </string-array>
+
+    <!-- Edit User Dialog text label strings -->
+    <string name="host_settings_edit_user_id">User ID</string>
+    <string name="host_settings_edit_user_id_hint">Enter unique user ID</string>
+    <string name="host_settings_edit_user_id_error_exists">User ID already exists</string>
+    <string name="host_settings_edit_user_id_error_invalid">Invalid user ID</string>
+
+    <string name="host_settings_edit_user_name">Name</string>
+    <string name="host_settings_edit_user_name_hint">Enter user name</string>
+    <string name="host_settings_edit_user_name_error_invalid">Invalid user name</string>
+
+    <string name="host_settings_edit_user_password">Password</string>
+    <string name="host_settings_edit_user_password_hint">Enter Password</string>
+    <string name="host_settings_edit_user_password_hint2">Change Password</string>
+    <string name="host_settings_edit_user_password_error">Invalid password</string>
+
+    <string name="host_settings_edit_user_enabled">Enabled</string>
+
+    <string name="host_settings_edit_user_role">Role</string>
+    <string-array name="host_settings_edit_user_role_types">
+        <item>Run patient tests</item>
+        <item>Run patient and QA tests</item>
+        <item>Administrator</item>
+    </string-array>
+
+    <string name="host_settings_edit_user_expiration">Expiration</string>
+    <string name="host_settings_edit_user_expiration_hint">Set expiration date</string>
+    <string name="host_settings_edit_user_expiration_error">Invalid expiration date</string>
+
+    <string name="host_settings_edit_user_created">Created</string>
+
+    <string name="host_settings_edit_user_add_title">Add User</string>
+    <string name="host_settings_edit_user_edit_title">Edit %1$s</string>
+
+    <string name="host_settings_edit_user_delete">Deleting user %1$s, continue?</string>
+    <string name="host_settings_edit_user_delete_msg">Deleted user \"%1$s\".</string>
+    <string name="host_settings_edit_user_delete_error">Error: Failed to delete \"%1$s\".</string>
+
+    <!-- Edit Printer Dialog text label strings -->
+    <string name="host_settings_edit_printer_name">Printer name</string>
+    <string name="host_settings_edit_printer_name_hint">Enter unique printer name</string>
+    <string name="host_settings_edit_printer_name_error_exists">Printer name already exists</string>
+    <string name="host_settings_edit_printer_name_error_invalid">Invalid printer name</string>
+    <string name="host_settings_edit_printer_address_error_invalid">Invalid printer address</string>
+    <string name="host_settings_edit_printer_address">Address</string>
+    <string name="host_settings_edit_printer_enter_printer_name">Enter printer name</string>
+    <string name="host_settings_edit_printer_print_calculated_result">Print calculated result?</string>
+    <string name="host_settings_edit_printer_print_corrected_result">Print corrected result?</string>
+    <string name="host_settings_edit_printer_print_test_info">Print test info?</string>
+    <string name="host_settings_edit_printer_type">Printer type</string>
+    <string name="host_settings_edit_printer_connection_type">Connection type</string>
+
+    <!-- Edit barcode symbologies Dialog text label strings -->
+    <string name="host_settings_edit_barcode_crop_begin">Crop begin</string>
+    <string name="host_settings_edit_barcode_crop_end">Crop end</string>
+    <string name="host_settings_edit_barcode_1d_barcode">1D barcode</string>
+    <string name="host_settings_edit_barcode_2d_barcode">2D barcode</string>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

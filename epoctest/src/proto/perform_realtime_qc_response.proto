@@ -1,0 +1,20 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "PerformRealTimeQCResponseTO";
+option optimize_for = LITE_RUNTIME;
+
+import "sensor_readings.proto";
+
+message PerformRealTimeQCResponse {
+    // Response error info -
+    int32  errorCode = 1;
+    string errorMessage = 2;
+
+    // Method's Return Code
+    int32 amReturnCode = 3;
+
+    // List of out parameters -
+    repeated SensorReadings testReadings = 4;
+}

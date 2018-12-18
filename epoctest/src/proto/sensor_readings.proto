@@ -1,0 +1,45 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "SensorReadingsTO";
+option optimize_for = LITE_RUNTIME;
+
+import "reading.proto";
+import "sensor_info.proto";
+import "levels.proto";
+
+message SensorReadings {
+    bool requirementsFailedQC = 1;
+    int32 returnCode = 2;                   // enum ResultsCalcReturnCode
+    int32 sensorType = 3;                   // enum Sensors
+    int32 sensorDescriptorNumber = 4;       // was uint8_t
+    int32 channelType = 5;                  // enum ChannelType
+    int32 analyte = 6;                      // enum Analytes
+    string analyteString = 7;
+    repeated Reading readings = 8;
+    int32 readingPointer = 9;
+    int32 numThisTypeReading = 10;
+    double result = 11;
+    double multiplicationFactor = 12;
+    SensorInfo sensorDescriptor = 13;
+    int32 realTimeQCPassed = 14;            // enum RealTimeQCReturnCode
+    int32 realTimeQCFailedEver = 15;        // enum RealTimeQCReturnCode
+    bool checkRealtimeQC = 16;
+    double reportableLow = 17;
+    double reportableHigh = 18;
+    Levels levels = 19;
+    int32 humidityPassed = 20;              // enum HumidityReturnCode
+    double insanityLow = 21;
+    double insanityHigh = 22;
+    double insanityQALow = 23;
+    double insanityQAHigh = 24;
+    int32 RealTimeQCFailureTotal = 25;
+    int32 HumidityQCFailureTotal = 26;
+    int32 AirQCFailureTotal = 27;
+    string RealTimeQCFailureOccuranceString = 28;
+    string HumidityQCFailureOccuranceString = 29;
+    string AirQCFailureOccuranceString = 30;
+    string extraString = 31;
+    string resultString = 32;
+}

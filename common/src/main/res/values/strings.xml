@@ -1,0 +1,606 @@
+<resources>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="about">About</string>
+    <string name="msg_sign_out">Do you wish to sign out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="error">Error</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="enabled">Enabled</string>
+    <string name="selected">Selected</string>
+    <string name="save">Save</string>
+    <string name="alert">Alert</string>
+    <string name="cancel">Cancel</string>
+    <string name="okay">OK</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+    <string name="dont_close">Don\'t Close</string>
+    <string name="close_test">Close Test</string>
+    <string name="close_test_and_exit">Close test and exit?</string>
+    <string name="dont_cancel">Don\'t Cancel</string>
+    <string name="cancel_test">Cancel Test</string>
+    <string name="cancel_test_and_exit">Cancel test and exit?</string>
+    <string name="action_settings">Settings</string>
+    <string name="field_title">field title</string>
+    <string name="scan_id">Scan or enter Operator ID</string>
+    <string name="scan_pw">Scan or enter Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="log_out">Log out</string>
+    <string name="warning">Warning</string>
+    <string name="test_history">Test History</string>
+    <string name="test_history_desc">[Test history description]</string>
+    <string name="patient_test">New Patient Test</string>
+    <string name="patient">Patient</string>
+	<string name="patient_with_name">Patient %1$s</string>
+    <string name="lot">Lot</string>
+    <string name="lot_with_id">Lot %1$s</string>
+    <string name="lot_with_hash">Lot #</string>
+    <string name="calculation_in_progress">Calculation in progress</string>
+    <string name="run_patient_test_desc">Start the patient test</string>
+    <string name="run_qa_test">QA Testing</string>
+    <string name="run_qa_test_desc">Not implemented.</string>
+    <string name="show_active_tests">Show Active Tests</string>
+    <string name="settings">Settings</string>
+    <string name="settings_s">Settings</string>
+    <string name="settings_desc">Go to the settings screen</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_desc">Set up the notifications</string>
+    <string name="diagnostics">Diagnostics</string>
+    <string name="diagnostics_desc">Diagnostics screen</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="home">Home</string>
+    <string name="go_back">Go back</string>
+    <string name="back">Back</string>
+    <string name="default_">Default</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="test_complete">Test Complete</string>
+    <string name="test_results">Test Results</string>
+    <string name="test_results_critical_message">There are critical results to be documented!</string>
+    <string name="test_animation">Test Animation</string>
+    <string name="test_document_results">Document Results</string>
+    <string name="test_document_results_msg">There are critical results to be documented!</string>
+    <string name="test_close_and_transmit">Close and Transmit</string>
+    <string name="text_cnc">CNC</string>
+    <string name="text_failed_iqc">iQC</string>
+    <string name="start_test_keepdata">Starting new test. Keep previous entries?</string>
+    <string name="compliance_data_missing">Some required fields not entered. Continue?</string>
+    <string name="criticals_not_documented">Critical results not documented. Continue?</string>
+    <string name="qc_failed">QC FAILED</string>
+    <string name="analytes_out_of_range">%1$d analytes out of range</string>
+	<string name="reader_name_id">Reader:</string>
+    <string name="reader_battery_level">%1$d%% battery</string>
+    <string name="document_critical_results">Document Critical Results</string>
+
+    <!-- QA Test Menu -->
+    <string name="qa_testmenu_testtitle">QA Testing</string>
+    <string name="perform_qa_test">Start New QC Test</string>
+    <string name="qa_test_history">QC Test History</string>
+    <string name="ec_test_history">Electronic Test History</string>
+    <string name="thermal_test_history">Thermal Test History</string>
+    <string name="qa_testmenu_subtitle_testhistory">Test History</string>
+    <string name="qa_testmenu_subtitle_testnow">Test Now</string>
+
+    <!-- Settings -->
+    <string name="set_date_time">SET DATE/TIME</string>
+    <string name="set_date_time_desc">Set up date and time on this device</string>
+    <string name="test_settings">TEST SETTINGS</string>
+    <string name="test_settings_desc">Go to the Test Settings screen</string>
+    <string name="host_settings">HOST SETTINGS</string>
+    <string name="host_settings_desc">Go to the Host Settings screen</string>
+    <string name="reader_settings">READER SETTINGS</string>
+    <string name="reader_settings_desc">Go to the Reader Settings screen</string>
+    <string name="reader_upgrade">READER UPGRADE</string>
+    <string name="thermal_qa">THERMAL QA</string>
+    <string name="qa_schedule_settings">QA SCHEDULE SETTINGS</string>
+    <string name="qa_schedule_settings_desc">This feature is not implemented yet</string>
+    <string name="data_management">DATA MANAGEMENT</string>
+    <string name="data_management_desc">This feature is not implemented yet</string>
+    <string name="change_name">CHANGE READER NAME</string>
+    <string name="exit_host">EXIT HOST</string>
+    <string name="exit_host_desc">Sign out and exit the host application</string>
+    <string name="kiosk_mode">KIOSK MODE</string>
+    <string name="reader_status">READER STATUS</string>
+    <string name="about_">ABOUT</string>
+    <string name="about_desc">Information about this device.</string>
+    <string name="dedicate">Dedicate</string>
+    <string name="page">Page</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="set_date">Set date</string>
+    <string name="set_date_key">set_date</string>
+    <string name="set_date_desc">Set date on the device</string>
+    <string name="set_time">Set time</string>
+    <string name="set_time_key">set_time</string>
+    <string name="set_time_desc">Set time on the device</string>
+    <string name="set_timezone">Set timezone</string>
+    <string name="set_timezone_key">set_timezone</string>
+
+    <!-- Test Settings\Field Settings -->
+    <string name="field_settings">FIELD SETTINGS</string>
+    <string name="patient_id">Patient ID</string>
+    <string name="id2">ID2</string>
+    <string name="test_selection">Test selection</string>
+    <string name="sample_type">Sample type</string>
+    <string name="hemodilution">Hemodilution</string>
+    <string name="delivery_system">Delivery system</string>
+    <string name="draw_site">Draw site</string>
+    <string name="respiratory_mode">Respiratory Mode</string>
+    <string name="allens_test">Allen\'s test</string>
+    <string name="maximum_length">Maximum length</string>
+    <string name="minimum_length">Minimum length</string>
+    <string name="patient_id_lookup">Patient ID lookup</string>
+    <string name="allow_user_input">Allow user input</string>
+    <string name="edit_values">Edit values</string>
+    <string name="allow_custom_entry">Allow the custom entry</string>
+    <string name="msg_card_needed">Card needed</string>
+    <string name="error_enter_number">Please enter a number</string>
+    <string name="notify_physician">Notify physician</string>
+    <string name="notify_registered_nurse">Notify registered nurse</string>
+    <string name="repeated_test">Repeated test</string>
+    <string name="send_to_lab">Send to lab</string>
+    <string name="other">Other</string>
+    <string name="expected_values">Expected values</string>
+    <string name="msg_rejecting_test">Rejecting test. Are you sure?</string>
+    <string name="lot_number">Fluid Lot</string>
+    <string name="fluid_type">Fluid Type</string>
+    <string name="test_type">Test Type</string>
+    <string name="fluid_reference">Fluid Ref</string>
+    <string name="fluid_expiry">Fluid Expiry</string>
+
+    <!-- Test Type -->
+    <string name="testtype_unknown">Unknown</string>
+    <string name="testtype_blood">Blood</string>
+    <string name="testtype_qualitycontrol">Quality Control</string>
+    <string name="testtype_calver">Calibration Verification</string>
+    <string name="testtype_proficiency">Proficiency</string>
+    <string name="testtype_thermalcheck">Thermal Check</string>
+    <string name="testtype_eqc">Electronic QC</string>
+    <string name="testtype_other">Other</string>
+
+
+    <!-- Test Settings\Field Settings\Test Selection Settings -->
+    <string name="all">All</string>
+    <string name="gases_plus">Gases+</string>
+    <string name="chem_plus">Chem+</string>
+    <string name="meta_plus">Meta+</string>
+
+    <!-- Test Settings\Field Settings\Delivery system -->
+    <string name="delivery_system_edit_values">Delivery System Edit Values</string>
+    <string name="draw_site_edit_values">Draw Site Edit Values</string>
+    <string name="allens_test_edit_values">Allen\'s Test Edit Values</string>
+    <string name="respiratory_mode_edit_values">Respiratory Mode Edit Values</string>
+
+    <!-- Units and reportable ranges settings -->
+    <string name="units">Units</string>
+    <string name="analyte_setup_bgp">Analyte Setup: Gases+</string>
+    <string name="analyte_setup_e">Analyte Setup: Chem+</string>
+    <string name="analyte_setup_m">Analyte Setup: Meta+</string>
+    <string name="reportable_high">Reportable high</string>
+    <string name="reportable_low">Reportable low</string>
+
+    <!-- Login -->
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="invalid_id">Invalid ID</string>
+    <string name="invalid_id_or_password">Invalid ID or Password</string>
+    <string name="user_account_lockedout">User account locked. Contact Administrator</string>
+    <string name="user_account_disabled">User account disabled. Contact Administrator</string>
+    <string name="user_account_expired">User account expired. Contact Administrator</string>
+    <string name="password_less_than_min_length">Password must be at least 4 char</string>
+    <string name="invalid_inactivity_timer">Inactivity timer must be number from 1 to 60</string>
+    <!-- Settings keys -->
+    <string name="set_date_time_key">set_date_time</string>
+    <string name="host_settings_key">host_settings</string>
+
+    <!-- DM Settings keys -->
+    <string name="dm_setting_address">Address</string>
+    <string name="dm_setting_port">Port</string>
+    <string name="invalid_port">invalid port number</string>
+
+    <!-- Host Settings - labels for parent menu -->
+    <string name="name_settings">Name settings</string>
+    <string name="general_host_settings">General host settings</string>
+    <string name="operator_name_and_password_settings">Operator name and password</string>
+    <string name="language_settings">Set language</string>
+    <string name="user_settings">Users</string>
+    <string name="printer_settings">Printers</string>
+    <string name="barcode_settings">Barcode Settings</string>
+    <string name="upgrade_settings">Upgrade</string>
+    <string name="workflow_settings">Workflows</string>
+
+    <!-- Host Settings - labels for child menu as well as title for Dialog popup -->
+    <string name="name_settings_host_name">Host name</string>
+    <string name="name_settings_hospital_name">Hospital name</string>
+    <string name="general_host_settings_name">Name</string>
+    <string name="general_host_settings_hospital">Hospital</string>
+    <string name="general_host_settings_login_authentications">Login Authentication</string>
+    <string name="general_host_settings_enable_fips">Enable FIPS</string>
+    <string name="general_host_settings_inactivity_timer">Inactivity Timer</string>
+    <string name="general_host_settings_inactivity_sign_out">Inactivity logout</string>
+    <string name="general_host_settings_screen_off_on_sign_out">Power off on logout</string>
+    <string name="general_host_settings_temperature_unit">Temperature Unit</string>
+    <string name="general_host_settings_user_name">User name</string>
+    <string name="general_host_settings_password">Password</string>
+    <string name="general_host_settings_change_password">Change password</string>
+    <string name="general_host_settings_timeunit_minute">min</string>
+    <string name="general_host_settings_language">Language</string>
+    <string name="general_host_settings_user_add">Add user</string>
+    <string name="general_host_settings_user_edit">Edit user</string>
+    <string name="general_host_settings_printer_inclusions">Printer inclusions</string>
+    <string name="general_host_settings_printer_add">Add printer</string>
+    <string name="general_host_settings_printer_edit">Edit printer</string>
+    <string name="general_host_settings_printer_print_range_if_highlow">Print Range If High and Low?</string>
+    <string name="general_host_settings_printer_print_qa_range">Print QA Range?</string>
+    <string name="general_host_settings_printer_print_qa_info">Print QA Info?</string>
+    <string name="general_host_settings_printer_Printer_inclusion">Printer inclusion</string>
+    <string name="general_host_settings_barcode_userID">User ID</string>
+    <string name="general_host_settings_barcode_patientID">Patient ID</string>
+    <string name="general_host_settings_barcode_fluid_lot">Fluid Lot</string>
+    <string name="general_host_settings_barcode_ID2">ID2</string>
+    <string name="general_host_settings_barcode_comments">Comments</string>
+    <string name="general_host_settings_barcode_other">Other</string>
+    <string name="no_upgrade">No upgrade available</string>
+    <string name="select_workflow">Select Active Workflow</string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="invalid_number">invalid number</string>
+
+    <!-- Reader Settings - labels for parent menu -->
+    <string name="reader_settings_status">Status</string>
+    <string name="reader_settings_dedicate">Dedicate</string>
+    <string name="reader_settings_page">Page</string>
+    <string name="reader_settings_upgrade">Upgrade</string>
+    <string name="reader_settings_thermal_qa">Thermal QA</string>
+    <string name="reader_settings_change_name">Change Name</string>
+
+    <!-- Reader Settings - labels for child menu as well as title for Dialog popup -->
+    <string name="reader_settings_status_menu_01">Get reader status</string>
+    <string name="reader_settings_dedicate_menu_01">Dedicated readers</string>
+    <string name="reader_settings_page_menu_01">Page reader</string>
+    <string name="reader_settings_upgrade_menu_01">Upgrade reader</string>
+    <string name="reader_settings_thermal_qa_menu_01">Thermal QA</string>
+    <string name="reader_settings_change_name_menu_01">Change reader name</string>
+
+    <!-- Reader Settings - UI titles for discovery pages -->
+    <string name="reader_discovery_title_patient_test">Choose reader</string>
+    <string name="reader_discovery_title_qa_test">Choose Reader(s)</string>
+    <string name="reader_discovery_title_status">Get reader status</string>
+    <string name="reader_discovery_title_dedicate">Dedicate readers</string>
+    <string name="reader_discovery_title_page">Page reader</string>
+    <string name="reader_discovery_title_upgrade">Upgrade reader</string>
+    <string name="reader_discovery_title_thermal_qa">Thermal QA</string>
+    <string name="reader_discovery_title_change_name">Change reader name</string>
+    <string name="reader_discovery_title_unknown_mode">Unknown mode</string>
+
+    <!-- Reader Settings - temporary text to be removed -->
+    <string name="reader_settings_not_implemented">not implemented</string>
+
+    <!-- Reader Discovery -->
+    <string name="reader_discovery_connecting">Connecting&#8230;</string>
+    <string name="reader_discovery_looking_for_readers">Looking for nearby Readers&#8230;</string>
+    <string name="reader_discovery_readers_detected">%1$d nearby Readers found.</string>
+    <string name="reader_discovery_no_readers_detected">No nearby Readers found.</string>
+
+    <!-- Test Panels -->
+    <string name="tp_all">All</string>
+    <string name="tp_gases">Gases</string>
+    <string name="tp_electrolytes">Electrolytes</string>
+    <string name="tp_emp">eMP</string>
+    <string name="tp_hh">H+H</string>
+    <string name="tp_custom">Custom Selection</string>
+
+
+    <string-array name="login_authentication">
+        <item>None</item>
+        <item>User ID only</item>
+        <item>User ID and password</item>
+    </string-array>
+
+    <string-array name="power_off_on_logout">
+        <item>None</item>
+        <item>On Battery</item>
+        <item>On A/C</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="yes_no">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="temperature_unit">
+        <item>°F</item>
+        <item>°C</item>
+    </string-array>
+
+    <!-- EpocTest status  messages -->
+
+    <string name="empty_string"></string>
+    <string name="UnknownStatus">Unknown test status.</string>
+    <string name="NewTestStarting">Starting test&#8230;</string>
+    <string name="Connecting">Connecting&#8230; Do not insert card.</string>
+    <string name="Connected">Connected to Reader.</string>
+    <string name="Disconnected">Connection to Reader lost.</string>
+    <string name="Configuring">Configuring&#8230; Do not insert card.</string>
+    <string name="Calibrating">Calibrating&#8230;</string>
+    <string name="CalibratingDoNotInject">Calibrating&#8230; Do not inject sample</string>
+    <string name="RemainingTime">%1$s remaining</string>
+    <string name="Calibrating_Remaining">Calibrating&#8230; %1$s remaining</string>
+    <string name="SampleIntroduction">Inject sample&#8230;</string>
+    <string name="SampleProcessing">Analyzing Sample&#8230;</string>
+    <string name="TestCalculating">Calculating Results...&#8230;</string>
+    <string name="TestCalculated">Test calculated&#8230; View test result.</string>
+    <string name="CardInserted">Card inserted.</string>
+    <string name="MockLot">Lot %1$s</string>
+    <string name="MissingDataRequired">Missing Data Required.</string>
+
+    <!-- EpocTest action messages -->
+    <string name="InsertCard">Insert Card.</string>
+    <string name="ShowMeHow">(show me how)</string>
+    <string name="DoNotInject">Do not inject sample.</string>
+    <string name="Disconnected_Retry">Connection to Reader lost. Click to reconnect.</string>
+    <string name="UnableConnect_Retry">Unable to connect. Click to reconnect.</string>
+    <string name="Retry_Connect">Tap to reconnect.</string>
+    <string name="MayEnterData">You may also enter data now.</string>
+    <string name="Connection_Closed">Connection closed.</string>
+    <string name="Remove_Insert_Different_Card">Remove card. Insert new test card.</string>
+    <string name="Remove_Insert_Card_Again">Remove card. Insert card again.</string>
+    <string name="Use_Different_Reader">Use another reader.</string>
+    <string name="Remove_Old_Card">Remove card to continue.</string>
+
+    <!-- EpocTest error messages -->
+    <string name="UnknownError">Unknown test error. E0.</string>
+    <string name="ConnectionLost">Connection to Reader lost. E1.</string>
+    <string name="ReaderNotCompatible">Reader not compatible with Host. E2.</string>
+    <string name="ReaderGeneralError">Reader failure: General error. Connection Closed E4.” </string>
+    <string name="ReaderBatteryLow">Reader battery low. Connection closed. E5.” </string>
+    <string name="EQCFailed_ConnectClosed">Electronic Failed. Connection closed. E6.</string>
+    <string name="LowTempLimit_ConnectClosed">Ambient Temp. low. Connection closed. E7.” </string>
+    <string name="HighTempLimit_ConnectClosed">Ambient Temp. high. Connection closed. E8.” </string>
+    <string name="HighPressureLimit_ConnectClosed">Ambient Pressure high. Connection closed. E9.” </string>
+    <string name="LowPressureLimit_ConnectClosed">Ambient Pressure low. Connection closed. E10.” </string>
+    <string name="AmbientPressureIQCFailed_ConnectClosed">Ambient Pressure QC Failed. Connection closed. E11.” </string>
+    <string name="ReaderMaintenanceRequiered">Reader maintenance required. E12.” </string>
+    <string name="E13ConnectionClosed">Connection closed. E13.” </string>
+    <string name="FluidDetectedInCard">Fluid detected in test card. E14."</string>
+    <string name="UnableToReadBarcode">Unable to read card barcode. E15.</string>
+    <string name="InvalidBarcode">Invalid barcode. E16.</string>
+    <string name="InvalidCardManufactureDate">Invalid card manufacture date. E17.</string>
+    <string name="CardExpired">Card expired. E18.</string>
+    <string name="CardTypeNotSupported">Card type not supported. E19.</string>
+    <string name="ReaderUpgradeRequired">Reader upgrade required. E20.” </string>
+    <string name="NoTestEnabledOnCard">No tests enabled on card. E21.</string>
+    <string name="CardInsertedEarly">Card inserted early. E22.” </string>
+    <string name="CardNotInsertedProperly">Card not inserted properly. E23.” </string>
+    <string name="OldCardInReader">Card in reader. E25.” </string>
+    <string name="SampleNotIntroducedInTime">Sample not introduced in time. E26.</string>
+    <string name="TestStop">Test stop: General error. E26.</string>
+    <string name="CardRemovedFromReader">Card removed from reader. E37.</string>
+    <string name="CommunicationFailed">Unable to connect. E40.</string>
+    <string name="EarlyInjectionError">iQC 28: Early sample.” </string>
+    <string name="IQCHumidityCheck">iQC 29: Humidity check</string>
+    <string name="IQCSensorCheck">iQC 30: Sensor check</string>
+    <string name="IQCFluidicsCheck">iQC 31: Fluidics check</string>
+    <string name="IQCFastSampleInjection">iQC3 32: Fast sample injection</string>
+    <string name="IQCInsufficientSample">iQC 33: Insufficient sample</string>
+    <string name="IQCCalibrationFluidError">iQC 35: Calibration fluid error</string>
+    <string name="IQCThermalQCFailed">iQC 36: Thermal QC failed</string>
+    <string name="IQCSampleDelivery">iQC 38: Sample delivery</string>
+    <string name="AttemptingToReconnect">Attempting to reconnect</string>
+    <string name="UseAnotherReader">Use another reader</string>
+    <string name="TapToReconnect">Tap to reconnect</string>
+    <string name="RemoveInsertNewCard">Remove card. Insert new test card.</string>
+    <string name="RemoveInsertAgain">Remove card. Insert card again.</string>
+    <string name="CheckHostDate">Check Host date.</string>
+    <string name="InsertNewCard">Insert new test card.</string>
+    <string name="RemoveCard">Remove card to continue.</string>
+
+    <!-- misc vertical stepper messages -->
+    <string name="RequiredByHospitalPolicy">Required by the Hospital Policy</string>
+    <string name="OptionalStep">Optional</string>
+
+    <!-- Languages -->
+    <string name="language_type_unknown">Unknown language</string>
+    <string name="language_type_en">English</string>
+    <string name="language_type_de">German</string>
+    <string name="language_type_fr">French</string>
+    <string name="language_type_es">Spanish</string>
+    <string name="language_type_it">Italian</string>
+    <string name="language_type_ja">Japanese</string>
+    <string name="language_type_el">Greek</string>
+    <string name="language_type_pl">Polish</string>
+    <string name="language_type_ro">Romanian</string>
+    <string name="language_type_ru">Russian</string>
+    <string name="language_type_tr">Turkish</string>
+    <string name="language_type_pt">Portuguese</string>
+    <string name="language_type_nl">Dutch</string>
+    <string name="language_type_da">Danish</string>
+    <string name="language_type_sv">Swedish</string>
+    <string name="language_type_fi">Finnish</string>
+    <string name="language_type_no">Norwegian</string>
+    <string name="language_type_lv">Latvian</string>
+    <string name="language_type_et">Estonian</string>
+    <string name="language_type_hu">Hungarian</string>
+    <string name="language_type_cs">Czech</string>
+    <string name="language_type_hr">Croatian</string>
+    <string name="language_type_sr">Serbian</string>
+    <string name="language_type_lt">Lithuanian</string>
+
+    <!-- Patient Test Data Entry -->
+    <string name="patienttest_data_entry">Data Entry</string>
+    <string name="combobox_btn_description">Show dropdown menu</string>
+    <string name="textinput_data_entry_or_scan_hint">Enter or Scan %1$s</string>
+    <string name="textinput_data_entry_hint">Enter %1$s</string>
+    <string name="textinput_data_entry_or_select_hint">Enter or Select %1$s</string>
+    <string name="custom_test_panels">Custom Test Selection</string>
+
+    <!-- Patient Test Data Entry Errors -->
+    <string name="error_patient_temperature">Enter patient temperature in range of 10.0\u2103 and 44.0\u2103</string>
+    <string name="error_patient_age">Enter patient age in range of 0 and 130</string>
+    <string name="error_patient_id">Patient ID should be between %1$d and %2$d characters</string>
+    <string name="error_patient_id_2">Patient ID 2 should be between %1$d and %2$d characters</string>
+    <string name="error_fi02">Please enter a value between 21.0 and 100.0</string>
+    <string name="error_flow">Please enter a value between 0 and 15.00</string>
+    <string name="error_rq">Please enter a value between 0.01 and 2.00</string>
+    <string name="error_patientorlot_id">Patient or Lot ID should be between %1$d and %2$d characters</string>
+
+
+    <!-- EpocTestFieldGroupType -->
+    <string name="none">None</string>
+    <string name="mandatory">Mandatory</string>
+    <string name="compliance">Compliance</string>
+    <string name="patient_information_optional">Patient Information</string>
+    <string name="sample_information_optional">Sample Information</string>
+    <string name="respiratory_optional">Respiratory</string>
+    <string name="additional_documentation_optional">Additional Documentation</string>
+    <string name="test_selection_optional">Test Selection</string>
+    <string name="custom_test_variables_optional">Custom Test Variables</string>
+    <string name="qa_optional">QA</string>
+    <string name="document_results">Document Results</string>
+    <string name="qa_testtype_optional">Test Type</string>
+    <string name="qa_comments_optional">Comments</string>
+
+    <!-- EpocTestFieldType -->
+    <string name="unknown">Unknown</string>
+    <!--<string name="patient_id">Patient Id</string>-->
+    <string name="patient_id2">Patient Id 2</string>
+    <!--<string name="test_selection">Test Selection</string>-->
+    <!--<string name="sample_type">Sample Type</string>-->
+    <string name="temperature">Patient Temperature</string>
+    <!--<string name="hemodilution">Hemodilution</string>-->
+    <string name="comments">Comments</string>
+    <!--<string name="draw_site">Draw Site</string>-->
+    <!--<string name="allens_test">Allens Test</string>-->
+    <!--<string name="delivery_system">Delivery System</string>-->
+    <string name="mode">Mode</string>
+    <string name="fi02">FI02</string>
+    <string name="vt">VT</string>
+    <string name="rr">RR</string>
+    <string name="tr">TR</string>
+    <string name="peep">PEEP</string>
+    <string name="ps">PS</string>
+    <string name="it">IT</string>
+    <string name="et">ET</string>
+    <string name="pip">PIP</string>
+    <string name="map">MAP</string>
+    <string name="ordering_physician">Ordering Physician</string>
+    <string name="order_date">Order Date</string>
+    <string name="order_time">Order Time</string>
+    <string name="collected_by">Collected By</string>
+    <string name="collection_date">Collection Date</string>
+    <string name="collection_time">Collection Time</string>
+    <string name="patient_location">Patient Location</string>
+    <string name="flow">Flow</string>
+    <string name="gender">Patient Gender</string>
+    <string name="height">Patient Height</string>
+    <string name="age">Patient Age</string>
+    <string name="hertz">Hertz</string>
+    <string name="deltap">DeltaP</string>
+    <string name="no_ppm">NOPPM</string>
+    <string name="rq">RQ</string>
+    <string name="notify_action">Notify Action</string>
+    <string name="notify_name">Notify Name</string>
+    <string name="notify_date">Notify Date</string>
+    <string name="notify_time">Notify Time</string>
+    <string name="read_back">Read Back</string>
+    <string name="reject_test">Reject Test</string>
+
+    <!-- Blood Sample Type -->
+    <string name="arterial">Arterial</string>
+    <string name="venous">Venous</string>
+    <string name="mixed_venous">Mixed-Venous</string>
+    <string name="capillary">Capillary</string>
+    <string name="cord">Cord</string>
+    <string name="cord_arterial">Cord Arterial</string>
+    <string name="cord_venous">Cord Venous</string>
+
+    <!-- Draw Sites -->
+    <string name="art_line">Art Line</string>
+    <string name="r_radial">R Radial</string>
+    <string name="l_radial">L Radial</string>
+    <string name="r_brach">R Brach</string>
+    <string name="l_brach">L Brach</string>
+    <string name="r_fem">R Fem</string>
+    <string name="l_fem">L Fem</string>
+
+    <!-- Delivery System -->
+    <string name="adult_vent">Adult Vent</string>
+    <string name="neo_vent">Neo Vent</string>
+    <string name="room_airway">Room Airway</string>
+    <string name="cannula">Cannula</string>
+    <string name="venti_mask">Venti Mask</string>
+    <string name="nrb">NRB</string>
+    <string name="aquinox">AquinOx</string>
+    <string name="facetent">FaceTent</string>
+    <string name="aeromask">AeroMask</string>
+    <string name="t_collar">T Collar</string>
+    <string name="et_tube">ET Tube</string>
+    <string name="bagging">Bagging</string>
+    <string name="vapotherm">Vapotherm</string>
+    <string name="oxy_hood">Oxy Hood</string>
+    <string name="hfov">HFOV</string>
+    <string name="hfjv">HFJV</string>
+    <string name="incubator">Incubator</string>
+    <string name="aerotx">AeroTx</string>
+    <string name="bipap">BiPAP</string>
+    <string name="cpap">CPAP</string>
+    <string name="oxy_mask">Oxy Mask</string>
+    <string name="pedi_vent">Pedi Vent</string>
+    <string name="prb">PRB</string>
+    <string name="t_tube">T Tube</string>
+
+    <!-- Respiratory Mode -->
+    <string name="simv">SIMV</string>
+    <string name="ac">AC</string>
+    <string name="pc">PC</string>
+    <string name="vc">VC</string>
+    <string name="bilevel">BILEVEL</string>
+    <string name="cpapps">CPAPPS</string>
+    <string name="simvpc">SIMVPC</string>
+    <string name="pav">PAV</string>
+    <string name="prvc">PRVC</string>
+    <string name="tc">TC</string>
+    <string name="bivent">BIVENT</string>
+    <string name="ncpap">NCPAP</string>
+    <string name="niv">NIV</string>
+    <string name="pcps">PCPS</string>
+    <string name="prvcps">PRVCPS</string>
+    <string name="simvps">SIMVPS</string>
+    <string name="simvpcps">SIMVPCPS</string>
+    <string name="simvprvcps">SIMVPRVCPS</string>
+    <string name="simvvcps">SIMVVCPS</string>
+    <string name="vs">VS</string>
+
+
+    <!-- Allen's Test -->
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <!--<string name="none">None</string>-->
+
+    <!-- Stepper -->
+    <string name="vertical_form_stepper_form_confirm">Confirm</string>
+    <string name="vertical_form_stepper_form_discard_question">Discard data?</string>
+    <string name="vertical_form_stepper_form_info_will_be_lost">All information will be lost</string>
+    <string name="vertical_form_stepper_form_discard_cancel">Cancel</string>
+    <string name="vertical_form_stepper_form_discard">Discard</string>
+    <string name="vertical_form_stepper_form_confirm_button">Confirm data</string>
+    <string name="vertical_form_stepper_form_last_step">Confirmation</string>
+    <string name="vertical_form_stepper_form_sending_data_message">Sending data…</string>
+    <string name="vertical_form_stepper_form_current_step_uncompleted_alert">Please complete the current field before continue</string>
+
+    <string name="vertical_form_stepper_form_down_previous">down_previous</string>
+    <string name="vertical_form_stepper_form_down_next">down_next</string>
+
+    <string name="analyte_group_gases">Gases+</string>
+    <string name="analyte_group_chem">Chem+</string>
+    <string name="analyte_group_meta">Meta+</string>
+    <string name="analyte">Analyte</string>
+    <!--Unit -->
+    <string name="unit_minute">Min</string>
+
+    <string name="guest_user">Guest</string>
+
+</resources>

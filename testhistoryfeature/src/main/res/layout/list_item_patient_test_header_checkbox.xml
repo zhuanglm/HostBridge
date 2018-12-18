@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <!-- This space is needed to give same top space as list_item_patient_test_header.xml LinearLayout -->
+    <!-- included below. In below file, LinearLayout's layout_margin is ignored when included, and -->
+    <!-- this space will give equivalant top space as in list_item_patient_test_header. -->
+    <View android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_th_sm"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <include
+        layout="@layout/list_item_patient_test_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/space"
+        app:layout_constraintLeft_toRightOf="@+id/guideline"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <ImageView
+        android:id="@+id/cb_indeterminate_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:src="@drawable/ic_indeterminate_check_box_blue_24dp"
+        app:layout_constraintBottom_toBottomOf="@id/checkbox"
+        app:layout_constraintLeft_toLeftOf="@id/checkbox"
+        app:layout_constraintTop_toTopOf="@id/checkbox" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:checked="true"
+        android:theme="@style/CheckboxStyle"
+        app:layout_constraintTop_toBottomOf="@id/space"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</android.support.constraint.ConstraintLayout>

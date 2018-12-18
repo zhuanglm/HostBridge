@@ -1,0 +1,15 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "PerformRealTimeQCRequestTO";
+option optimize_for = LITE_RUNTIME;
+
+import "sensor_readings.proto";
+import "realtime_qc.proto";
+
+message PerformRealTimeQCRequest {
+    repeated SensorReadings testReadings = 1;
+    RealTimeQC qcStruct = 2;
+    float lastRecordedTime = 3;
+}

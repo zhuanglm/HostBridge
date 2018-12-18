@@ -1,0 +1,15 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "FinalResultTO";
+option optimize_for = LITE_RUNTIME;
+
+message FinalResult {
+    int32 channelType = 1;              // enum ChannelType
+    int32 analyte = 2;                  // enum Analytes
+    int32 correctedWhat = 3;            // enum Analytes
+    double reading = 4;
+    int32 returnCode = 5;               // enum ResultsCalcReturnCode
+    bool requirementsFailedIQC = 6;
+}

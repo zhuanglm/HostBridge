@@ -1,0 +1,17 @@
+syntax = "proto3";
+package to;
+
+option java_package = "com.epocal.epoctest.to";
+option java_outer_classname = "CalculateResultsRequestTO";
+option optimize_for = LITE_RUNTIME;
+
+import "coox_model.proto";
+import "point.proto";
+
+message CalculateResultsRequest {
+    CooxModel cooxModel = 1;
+    float opl = 2;
+    repeated Point reference = 3;
+    repeated Point sample = 4;
+    bool allowNegativeValues = 5;
+}

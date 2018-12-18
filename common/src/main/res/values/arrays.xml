@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- String representation for enum EpocTestFieldGroupType -->
+    <string-array name="EpocTestFieldGroupType">
+        <item name="">None</item>
+        <item>Mandatory</item>
+        <item>Compliance</item>
+        <item>Patient Information (Optional)</item>
+        <item>Sample Information (Optional)</item>
+        <item>Respiratory (Optional)</item>
+        <item>Additional Documentation (Optional)</item>
+        <item>Test Selection (Optional)</item>
+        <item>Custom Test Variables (Optional)</item>
+        <item>QA (Optional)</item>
+        <item>Document Results (Optional)</item>
+        <item>Test Type (Optional)</item>
+        <item>Comments (Optional)</item>
+    </string-array>
+
+    <string-array name="EpocTestFieldType">
+        <item>Unknown</item>
+        <item>Patient Id</item>
+        <item>Patient Id 2</item>
+        <item>Test Selection</item>
+        <item>Sample Type</item>
+        <item>Temperature</item>
+        <item>Hemodilution</item>
+        <item>Comments</item>
+        <item>Draw Site</item>
+        <item>Allens Test</item>
+        <item>Delivery System</item>
+        <item>Mode</item>
+        <item>FI02</item>
+        <item>VT</item>
+        <item>RR</item>
+        <item>TR</item>
+        <item>PEEP</item>
+        <item>PS</item>
+        <item>IT</item>
+        <item>ET</item>
+        <item>PIP</item>
+        <item>MAP</item>
+        <item>Ordering Physician</item>
+        <item>Order Date</item>
+        <item>Order Time</item>
+        <item>Collected By</item>
+        <item>Collection Date</item>
+        <item>Collection Time</item>
+        <item>Patient Location</item>
+        <item>Flow</item>
+        <item>Gender</item>
+        <item>Age</item>
+        <item>Hertz</item>
+        <item>Deltap</item>
+        <item>No PPM</item>
+        <item>RQ</item>
+        <item>Notify Action</item>
+        <item>Notify Name</item>
+        <item>Notify Date</item>
+        <item>Notify Time</item>
+        <item>Read Back</item>
+        <item>Reject Test</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="sample_type">
+        <item>Arterial</item>
+        <item>Venous</item>
+        <item>Mixed-Venous</item>
+        <item>Capillary</item>
+        <item>Cord</item>
+        <item>Cord Arterial</item>
+        <item>Cord Venous</item>
+    </string-array>
+    <string-array name="draw_site">
+        <item>Art Line</item>
+        <item>R Radial</item>
+        <item>L Radial</item>
+        <item>R Brach</item>
+        <item>L Brach</item>
+        <item>R Fem</item>
+        <item>L Fem</item>
+    </string-array>
+    <string-array name="allens_test">
+        <item>Positive</item>
+        <item>Negative</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="delivery_system">
+        <item>Adult Vent</item>
+        <item>Neo Vent</item>
+        <item>Room Airway</item>
+        <item>Cannula</item>
+        <item>Venti Mask</item>
+        <item>NRB</item>
+        <item>AquinOx</item>
+        <item>FaceTent</item>
+        <item>AeroMask</item>
+        <item>T Collar</item>
+        <item>ET Tube</item>
+        <item>Bagging</item>
+        <item>Vapotherm</item>
+        <item>Oxy Hood</item>
+        <item>HFOV</item>
+        <item>HFJV</item>
+        <item>Incubator</item>
+        <item>AeroTx</item>
+        <item>BiPAP</item>
+        <item>CPAP</item>
+        <item>Oxy Mask</item>
+        <item>Pedi Vent</item>
+        <item>PRB</item>
+        <item>T Tube</item>
+    </string-array>
+</resources>

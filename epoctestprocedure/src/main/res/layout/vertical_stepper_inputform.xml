@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    >
+
+    <com.epocal.epoctestprocedure.fragments.dataentry.VerticalStepperInputLayout
+        android:id="@+id/vertical_stepper_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/text_view_data_entry"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/messageBox"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/patienttest_data_entry"
+        android:textColor="#2b2b2b"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow"
+        />
+
+</RelativeLayout>

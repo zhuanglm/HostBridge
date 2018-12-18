@@ -1,0 +1,111 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryBlueNew</item>
+        <item name="colorPrimaryDark">@color/statusBarBackgroundColor</item>
+        <item name="colorAccent">@color/pastelBlue</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="colorAccent">@color/pastelBlue</item>
+    </style>
+
+    <style name="SettingsFragmentStyle">
+
+        <item name="android:textColorSecondary">#CCC</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="AlertDialogCustom">
+        <item name="android:windowBackground">@color/pastelGreenLight</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:colorAccent">@color/colorWhite</item>
+        <item name="android:windowTitleStyle">@color/colorWhite</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>
+
+    <style name="BrandedSwitch.control" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#fff</item>
+        <item name="colorSwitchThumbNormal">#d0b3b3b3</item>
+    </style>
+
+    <style name="BrandedSwitch.text" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">#ffa000</item>
+        <item name="android:textSize">5sp</item>
+    </style>
+
+    <style name="BrandedCheckBox" parent="AppTheme">
+        <item name="colorAccent">#aaf000</item>
+        <item name="colorControlNormal">#ff0000</item>
+    </style>
+
+    <style name="BrandedSwitch" parent="AppTheme">
+        <item name="colorAccent">#39ac39</item>
+    </style>
+
+    <style name="EpocWarningMessageColors">
+        <item name="android:colorBackground">@color/colorAlereYellow</item>
+        <item name="android:colorEdgeEffect">@color/colorAlereLightYellow</item>
+        <item name="android:textColorPrimary">@color/colorAlereBlack</item>
+        <item name="android:textColorSecondary">@color/colorAlereLightYellow</item>
+        <item name="android:colorPressedHighlight">@color/colorAlereLightYellow</item>
+        <item name="android:colorLongPressedHighlight">@color/colorAlereYellow</item>
+        <item name="android:textColorHighlight">@color/colorAlereBlack</item>
+        <item name="android:textColorHighlightInverse">@color/colorAlereYellow</item>
+    </style>
+    <style name="EpocRegularMessageColors">
+        <item name="android:colorBackground">@color/colorAlereYellow</item>
+        <item name="android:colorEdgeEffect">@color/colorAlereLightYellow</item>
+        <item name="android:textColorPrimary">@color/colorAlereBlack</item>
+        <item name="android:textColorSecondary">@color/colorAlereLightYellow</item>
+        <item name="android:colorPressedHighlight">@color/colorAlereLightYellow</item>
+        <item name="android:colorLongPressedHighlight">@color/colorAlereYellow</item>
+        <item name="android:textColorHighlight">@color/colorAlereBlack</item>
+        <item name="android:textColorHighlightInverse">@color/colorAlereYellow</item>
+    </style>
+    <style name="EpocErrorMessageColors">
+        <item name="android:colorBackground">@color/colorAlereYellow</item>
+        <item name="android:colorEdgeEffect">@color/colorAlereLightYellow</item>
+        <item name="android:textColorPrimary">@color/colorAlereBlack</item>
+        <item name="android:textColorSecondary">@color/colorAlereLightYellow</item>
+        <item name="android:colorPressedHighlight">@color/colorAlereLightYellow</item>
+        <item name="android:colorLongPressedHighlight">@color/colorAlereYellow</item>
+        <item name="android:textColorHighlight">@color/colorAlereBlack</item>
+        <item name="android:textColorHighlightInverse">@color/colorAlereYellow</item>
+    </style>
+    <style name="EpocActionMessageColors">
+        <item name="android:colorBackground">@color/colorAlereYellow</item>
+        <item name="android:colorEdgeEffect">@color/colorAlereLightYellow</item>
+        <item name="android:textColorPrimary">@color/colorAlereBlack</item>
+        <item name="android:textColorSecondary">@color/colorAlereLightYellow</item>
+        <item name="android:colorPressedHighlight">@color/colorAlereLightYellow</item>
+        <item name="android:colorLongPressedHighlight">@color/colorAlereYellow</item>
+        <item name="android:textColorHighlight">@color/colorAlereBlack</item>
+        <item name="android:textColorHighlightInverse">@color/colorAlereYellow</item>
+    </style>
+
+    <style name="StepperInputEditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@color/primaryBlueNew</item>
+        <item name="colorControlHighlight">@color/primaryBlueNew</item>
+    </style>
+
+    <style name="TPAlertDialogCustom" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">#00397F</item>
+        <item name="android:colorAccent">@color/primaryBlueNew</item>
+    </style>
+</resources>

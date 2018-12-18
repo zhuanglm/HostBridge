@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+    <ProgressBar
+        android:id="@+id/progress_bar_home_screen"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:indeterminateTint="@color/colorEpocBlue"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/department_name"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:background="@color/primaryBlueNewLight"
+            android:enabled="false"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="EPOCAL - A SIEMENS COMPANY"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/ll_test_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/empty_string"
+                        android:src="@mipmap/ic_test_history"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_toEndOf="@+id/imageView2"
+                        android:gravity="center_vertical"
+                        android:text="@string/test_history"
+                        android:textColor="#000"
+                        android:textSize="17sp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ll_run_patient_test"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/empty_string"
+                        android:src="@mipmap/ic_patient_test"/>
+
+                    <TextView
+                        android:id="@+id/tv_run_patient_test"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_toEndOf="@+id/imageView3"
+                        android:gravity="center_vertical"
+                        android:text="@string/patient_test"
+                        android:textColor="#000"
+                        android:textSize="17sp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ll_run_qa_test"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/empty_string"
+                        android:src="@mipmap/ic_qa_test"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_toEndOf="@+id/imageView4"
+                        android:gravity="center_vertical"
+                        android:text="@string/run_qa_test"
+                        android:textColor="#000"
+                        android:textSize="17sp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ll_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/empty_string"
+                        android:src="@mipmap/ic_settings"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_toEndOf="@+id/imageView5"
+                        android:gravity="center_vertical"
+                        android:text="@string/settings"
+                        android:textColor="#000"
+                        android:textSize="17sp"/>
+
+                </RelativeLayout>
+
+
+                <!-- Notification menu is not supported in 2018 Nov release -->
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/ll_notifications"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="56dp"-->
+                    <!--android:gravity="center">-->
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/imageView6"-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:layout_alignParentStart="true"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:contentDescription="@string/empty_string"-->
+                        <!--android:src="@mipmap/ic_about"/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_alignParentEnd="true"-->
+                        <!--android:layout_marginStart="16dp"-->
+                        <!--android:layout_toEndOf="@+id/imageView6"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:text="@string/notifications"-->
+                        <!--android:textColor="#000"-->
+                        <!--android:textSize="17sp"/>-->
+
+                <!--</RelativeLayout>-->
+
+                <RelativeLayout
+                    android:id="@+id/ll_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/empty_string"
+                        android:src="@mipmap/ic_about"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_toEndOf="@+id/imageView8"
+                        android:gravity="center_vertical"
+                        android:text="@string/about"
+                        android:textColor="#000"
+                        android:textSize="17sp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ll_sign_out"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/empty_string"
+                        android:src="@mipmap/ic_sign_out"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_toEndOf="@+id/imageView9"
+                        android:gravity="center_vertical"
+                        android:text="@string/sign_out"
+                        android:textColor="#000"
+                        android:textSize="17sp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

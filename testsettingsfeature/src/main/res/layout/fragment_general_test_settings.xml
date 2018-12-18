@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_allow_reject_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:text="@string/allow_to_reject_test"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:theme="@style/BrandedSwitch.control" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDivider" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_enforce_critical_handling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/enforce_critical_handling"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:theme="@style/BrandedSwitch.control" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDivider" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_recall_patient_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/recall_patient_id"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:theme="@style/BrandedSwitch.control" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDivider" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_recall_sample_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/recall_sample_type"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:theme="@style/BrandedSwitch.control" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDivider" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_save_raw_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/save_raw_data"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:theme="@style/BrandedSwitch.control" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDivider" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_allow_data_recall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/allow_data_recall"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:theme="@style/BrandedSwitch.control" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDivider" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_close_completed_tests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/close_completed_tests"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:theme="@style/BrandedSwitch.control" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDivider" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_allow_expired_cards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/allow_expired_cards"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:theme="@style/BrandedSwitch.control" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDivider" />
+
+    </LinearLayout>
+
+</ScrollView>
